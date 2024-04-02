@@ -1,0 +1,5 @@
+setup.py
+src/textsummarizer.egg-info/PKG-INFO
+src/textsummarizer.egg-info/SOURCES.txt
+src/textsummarizer.egg-info/dependency_links.txt
+src/textsummarizer.egg-info/top_level.txt
