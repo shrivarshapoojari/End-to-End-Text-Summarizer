@@ -1,1 +1,78 @@
-[2024-04-02 08:56:29,079: INFO: main: Welocome]
+ [2024-05-04 15:23:14,798: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:23:14,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:23:14,800: INFO: common: created directory at: artifacts]
+[2024-05-04 15:23:52,852: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:23:52,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:23:52,854: INFO: common: created directory at: artifacts]
+[2024-05-04 15:24:51,435: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:24:51,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:24:51,437: INFO: common: created directory at: artifacts]
+[2024-05-04 15:27:08,278: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:27:08,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:27:08,281: INFO: common: created directory at: artifacts]
+[2024-05-04 15:31:26,947: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:31:26,948: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:31:26,955: INFO: common: created directory at: artifacts]
+[2024-05-04 15:33:49,794: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:33:49,796: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:33:49,796: INFO: common: created directory at: artifacts]
+[2024-05-04 15:34:01,326: INFO: 126400841: artifacts/data_ingestion/data.zipdownlad! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5700:CAA02:336FF6:43D633:66360489
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 10:03:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714817026.169198,VS0,VE257
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fdbe49e1970c2b1ced3305a3db431e737b7f3de3
+Expires: Sat, 04 May 2024 10:08:46 GMT
+Source-Age: 0
+
+]
+[2024-05-04 15:41:59,634: INFO: main: Welocome]
+[2024-05-04 15:41:59,634: INFO: main: >>>>>>>>stage Data Ingestion stage started<<<<<<<<<<<<<]
+[2024-05-04 15:41:59,635: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:41:59,636: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:41:59,636: INFO: common: created directory at: artifacts]
+[2024-05-04 15:42:07,008: INFO: data_ingestion: artifacts/data_ingestion/data.zipdownlad! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5700:CAA02:336FF6:43D633:66360489
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 10:11:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10235-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714817516.969153,VS0,VE256
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b3e819f77ea968bf003b6627dff308ac1e178a1b
+Expires: Sat, 04 May 2024 10:16:56 GMT
+Source-Age: 0
+
+]
+[2024-05-04 15:42:07,202: INFO: main: >>>>>>>>stage Data Ingestion stagecompleted<<<<<<<<<<<<<]
