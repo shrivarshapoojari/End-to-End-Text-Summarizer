@@ -76,3 +76,10 @@ Source-Age: 0
 
 ]
 [2024-05-04 15:42:07,202: INFO: main: >>>>>>>>stage Data Ingestion stagecompleted<<<<<<<<<<<<<]
+[2024-05-04 15:53:01,676: INFO: main: Welocome]
+[2024-05-04 15:53:01,677: INFO: main: >>>>>>>>stage Data Ingestion stage started<<<<<<<<<<<<<]
+[2024-05-04 15:53:01,680: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 15:53:01,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-04 15:53:01,685: INFO: common: created directory at: artifacts]
+[2024-05-04 15:53:01,685: INFO: data_ingestion: File already exits of size :~ 7718 KB]
+[2024-05-04 15:53:01,838: INFO: main: >>>>>>>>stage Data Ingestion stagecompleted<<<<<<<<<<<<<]
