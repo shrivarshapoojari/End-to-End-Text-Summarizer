@@ -116,3 +116,77 @@ Source-Age: 47
 [2024-05-05 10:50:34,248: INFO: common: created directory at: artifacts]
 [2024-05-05 10:50:34,249: INFO: common: created directory at: artifacts/data_validation]
 [2024-05-05 10:50:34,250: INFO: main: >>>>>>>>stage Data Validation stagecompleted<<<<<<<<<<<<<]
+[2024-05-05 11:24:53,213: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-05 11:26:20,420: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:26:20,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-05 11:26:20,425: INFO: common: created directory at: artifacts]
+[2024-05-05 11:26:20,426: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-05 11:49:28,311: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-05 11:49:28,486: INFO: main: Welocome]
+[2024-05-05 11:49:28,486: INFO: main: >>>>>>>>stage Data Ingestion stage started<<<<<<<<<<<<<]
+[2024-05-05 11:49:28,489: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:49:28,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-05 11:49:28,491: INFO: common: created directory at: artifacts]
+[2024-05-05 11:49:29,798: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion.main()
+  File "d:\nlp\end to end text summarizer\src\textsummarizer\pipeline\stage_01_data_ingestion.py", line 18, in main
+    raise e
+  File "d:\nlp\end to end text summarizer\src\textsummarizer\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "d:\nlp\end to end text summarizer\src\textsummarizer\components\data_ingestion.py", line 14, in download_file
+    filename,headers=request.urlretrieve(
+  File "C:\Users\shree\miniconda3\envs\textS\lib\urllib\request.py", line 257, in urlretrieve
+    tfp = open(filename, 'wb')
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-05-05 11:53:25,075: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-05 11:53:25,291: INFO: main: Welocome]
+[2024-05-05 11:53:25,291: INFO: main: >>>>>>>>stage Data Ingestion stage started<<<<<<<<<<<<<]
+[2024-05-05 11:53:25,294: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:53:25,295: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-05 11:53:25,296: INFO: common: created directory at: artifacts]
+[2024-05-05 11:53:25,296: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-05 11:53:28,645: INFO: data_ingestion: artifacts/data_ingestion/data.zipdownlad! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4F02:CA2B2:1699F1:1EC62B:663716EB
+Accept-Ranges: bytes
+Date: Sun, 05 May 2024 06:23:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10224-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714890202.855497,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d0ffefdad033c92e2dffe4b87811d08c1173587e
+Expires: Sun, 05 May 2024 06:28:21 GMT
+Source-Age: 236
+
+]
+[2024-05-05 11:53:28,743: INFO: main: >>>>>>>>stage Data Ingestion stagecompleted<<<<<<<<<<<<<]
+[2024-05-05 11:53:28,743: INFO: main: Welocome]
+[2024-05-05 11:53:28,744: INFO: main: >>>>>>>>stage Data Validation stage started<<<<<<<<<<<<<]
+[2024-05-05 11:53:28,746: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:53:28,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-05 11:53:28,747: INFO: common: created directory at: artifacts]
+[2024-05-05 11:53:28,748: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-05 11:53:32,471: INFO: main: >>>>>>>>stage Data Validation stagecompleted<<<<<<<<<<<<<]
+[2024-05-05 11:53:32,472: INFO: main: Welocome]
+[2024-05-05 11:53:32,473: INFO: main: >>>>>>>>stage TRANSFORMATION started<<<<<<<<<<<<<]
+[2024-05-05 11:53:32,475: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:53:32,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-05 11:53:32,477: INFO: common: created directory at: artifacts]
+[2024-05-05 11:53:32,477: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-05 11:53:32,478: INFO: data_ingestion: File already exits of size :~ 7718 KB]
+[2024-05-05 11:53:32,594: INFO: main: >>>>>>>>stage TRANSFORMATIONcompleted<<<<<<<<<<<<<]
